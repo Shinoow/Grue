@@ -1,6 +1,8 @@
 {
   "homepage": "https://minecraft.curseforge.com/projects/grue",
   "promos": {
+    "1.12-latest": "1.3.5",
+    "1.12-recommended": "1.3.5",
     "1.11.2-latest": "1.3.5",
     "1.11.2-recommended": "1.3.5",
     "1.11-latest": "1.3.3",
@@ -11,6 +13,9 @@
     "1.9-recommended": "1.3.5",
     "1.8.9-latest": "1.3.5",
     "1.8.9-recommended": "1.3.5"
+  },
+  "1.12": {
+	"1.3.5": "- Ported to 1.12"
   },
   "1.11.2": {
 	"1.3.5": "- The grue timer can now be reduced down to a single second, and increased up to a minute\n- Brightness calculations have been tweaked to take skylight into consideration (no more grues spawning under a tree)",
