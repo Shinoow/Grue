@@ -1,8 +1,8 @@
 {
   "homepage": "https://minecraft.curseforge.com/projects/grue",
   "promos": {
-    "1.12.2-latest": "1.4.0",
-    "1.12.2-recommended": "1.4.0",
+    "1.12.2-latest": "1.5.0",
+    "1.12.2-recommended": "1.5.0",
     "1.12-latest": "1.3.5",
     "1.12-recommended": "1.3.5",
     "1.11.2-latest": "1.3.5",
@@ -17,6 +17,7 @@
     "1.8.9-recommended": "1.3.5"
   },
   "1.12.2": {
+    "1.5.0": "- Sounds now properly play on the server (also stops VanillaFix from \"crashing\" the client if installed)\n- Grue no longer spawns in peaceful\n- The Grue timer pauses when riding in a Minecart or Boat\n- Added support for Optifine's Dynamic Lights\n- The Dynamic Lights List now automatically scans for blocks that emit light before adding entries from the configurable list\n- Grue doesn't instantly damage you on contact when it spawns\n- The Grue now spawns wherever the spawn sound was played, rather than the player's location (unless they stood still, that is)\n- Added a config option to restore the old spawning behavior\n- Increased the movement speed of the Grue when following a target player (you could outrun them by walking)\n- Added a configurable biome whitelist for biomes where the Grue can spawn\n- Added a config option to turn the biome whitelist into a blacklist\n- Added an IMC message for biome whitelist overrides (\"registerBiomeWhitelistOverride\", to \"grue\", with a biome ID (ResourceLocation) converted to a String)\n- Added a configurable list of moon phases when the Grue will spawn during nighttime (if any values are set). Only affects dimensions with a day-night cycle!\n- Added a config option that toggles whether or not only a single Grue can spawn at a time (pausing the timer if a Grue is within 10 blocks of the player)\n-  Added a config option for the amount of damage the Grue deals when Wimp Mode is enabled (no, you can't set it to 0)\n- Added a config option for defining the minimum light level at which the Grue can spawn\n- Added a config option for defining the maximum light level at which the Grue can spawn\n- Added a configurable list of dimension-specific overrides for the majority of the available config options\n- Removed the Daylight Grue (with the config options for min and max light levels you can achieve the same thing)",
     "1.4.0": "- Improved the skylight calculations (eg. if you have hardcore darkness installed, it will be dark enough for Grues to spawn at night, courtesy of Laike Endaril)\n- The light detection code no longer takes artificial light into account (so Grues can spawn in the Nether, among other dimensions)\n- The timer stops ticking if you're already dead, as does the displaying of warning messages\n- The warning message is now displayed above the hotbar, instead of the top left corner\n- Added a loot table for the Grue (have fun trying to kill them, it's empty)\n- Added a config option to turn the dimension whitelist into a blacklist\n- Added a config option to toggle whether or not to display the warning text in the chat instead of above the hotbar\n- Added a configurable grace period that temporarily stops the Grue timer for a few seconds on dimension change\n- Replaced the spawning sounds with new ones (with more genuine growls and more fake reverb)\n- Now runs on Forge 14.23.4.2705"
   },
   "1.12": {
